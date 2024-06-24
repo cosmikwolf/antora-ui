@@ -38,13 +38,35 @@ body {
 }
 
 .orbitron-logo {
+  display: flex;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.25rem;
-  margin: auto;
+  /* margin: auto; */
+  padding-bottom: 0rem;
+  vertical-align: bottom;
+  /* margin-bottom: 0.25rem; */
+  line-height: 3rem;
 }
+
+.orbitron-logo-large {
+  /* font-weight: 600; */
+  /* font-style: normal; */
+  /* color: #ff3300; */
+  /* font-size: 0.5rem; */
+  /* margin-bottom: 0.25rem; */
+}
+
+/* .orbitron-logo-small { */
+/* font-weight: 200; */
+/* font-style: normal; */
+/* /* font-size: 0.5rem; */
+/* padding-left: 0.2rem; */
+/* padding-bottom: 0rem; */
+/* margin-bottom: 0.25rem; */
+/* } */
 
 svg#synapse-logo path {
   fill: #ffffff !important;
