@@ -26,6 +26,50 @@ body {
   flex: auto;
   padding-left: 1rem;
 }
+.navbar-brand-logo-container {
+  display: flex;
+  /* align-items: left; */
+  /* vertical-align: middle; */
+  /* justify-content: left; */
+  /* height: 100%; */
+  /* padding-left: 1rem; */
+  /* padding: 0.5rem; */
+  /* border: 0.25px solid #ffa; */
+}
+
+.orbitron-logo {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  margin: auto;
+}
+
+svg#synapse-logo path {
+  fill: #ffffff !important;
+  stroke: #fff;
+  stroke-width: 1px;
+  /* stroke-dasharray: 2, 2; */
+  stroke-linejoin: round;
+}
+
+.navbar-brand-logo {
+  /* display: flex; */
+  /* flex: auto; */
+  /* padding: 0rem; */
+  /* background-image: url(../img/logo.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-origin: content-box; */
+  border: 1px solid #fff;
+  height: 100%;
+  width: 150%;
+  display: flex;
+  box-sizing: border-box;
+  /* width: 100%; */
+  padding: -1rem;
+  margin: 0rem;
+}
 
 .navbar-brand .navbar-item {
   color: var(--navbar-font-color);
@@ -102,7 +146,8 @@ body {
 }
 
 .navbar-burger:not(.is-active) span {
-  transition: transform ease-out 0.25s, opacity 0s 0.25s, margin-top ease-out 0.25s 0.25s;
+  transition: transform ease-out 0.25s, opacity 0s 0.25s,
+    margin-top ease-out 0.25s 0.25s;
 }
 
 .navbar-burger span + span {
